@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luxe Lighting Lagos — Premium Chandeliers & Fixtures</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+     NAVBAR
+══════════════════════════════════════════ -->
+<nav class="nav" id="navbar">
+  <a href="#" class="nav-logo">Luxe<span>Lighting</span></a>
+  <ul class="nav-links">
+    <li><a href="#products">Collection</a></li>
+    <li><a href="#gallery">Projects</a></li>
+    <li><a href="#why">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="https://wa.me/2348012345678?text=Hello!%20I%20would%20like%20to%20inquire%20about%20your%20lighting%20collection." class="nav-cta">Get a Quote</a>
+  <div class="menu-toggle" id="menuToggle" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#products" onclick="closeMobile()">Collection</a></li>
+    <li><a href="#gallery" onclick="closeMobile()">Projects</a></li>
+    <li><a href="#why" onclick="closeMobile()">About</a></li>
+    <li><a href="#testimonials" onclick="closeMobile()">Reviews</a></li>
+    <li><a href="#contact" onclick="closeMobile()">Contact</a></li>
+  </ul>
+</div>
+
+<!-- ══════════════════════════════════════════
+     HERO
+══════════════════════════════════════════ -->
+<section class="hero" id="home">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <span>Lagos, Nigeria</span>
+    </div>
+    <h1>Transform Your Space with <em>Luxury</em> Lighting</h1>
+    <p>Premium Chandeliers &amp; Modern Fixtures for Elegant Homes and Commercial Spaces.</p>
+    <div class="hero-buttons">
+      <a href="#products" class="btn-outline">Browse Collection</a>
+      <a href="https://wa.me/2348064528539?text=Hello!%20I'm%20interested%20in%20your%20lighting%20collection." class="btn-whatsapp">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Chat on WhatsApp
+      </a>
+    </div>
+  </div>
+  <div class="hero-badge">
+    <div class="hero-badge-ring">
+      <strong>500+</strong>
+      <span>Homes Installed</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     MARQUEE
+══════════════════════════════════════════ -->
+<div class="marquee-bar" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Premium Chandeliers</span>
+    <span>Pendant Lights</span>
+    <span>Ceiling Fixtures</span>
+    <span>Professional Installation</span>
+    <span>Nationwide Delivery</span>
+    <span>Luxury Designs</span>
+    <span>Imported Quality</span>
+    <span>Premium Chandeliers</span>
+    <span>Pendant Lights</span>
+    <span>Ceiling Fixtures</span>
+    <span>Professional Installation</span>
+    <span>Nationwide Delivery</span>
+    <span>Luxury Designs</span>
+    <span>Imported Quality</span>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     PRODUCTS
+══════════════════════════════════════════ -->
+<section class="products" id="products">
+  <div class="products-header reveal">
+    <span class="section-label">Our Collection</span>
+    <h2 class="section-title">Curated for the<br>Discerning Eye</h2>
+    <p>Every piece is hand-selected for quality, design, and lasting beauty.</p>
+  </div>
+  <div class="products-grid reveal">
+
+    <div class="product-card">
+      <div class="product-card-img">
+        <img src="https://images.unsplash.com/photo-1524484485831-a92ffc0de03f?w=600&q=80" alt="Crystal Empire Chandelier" loading="lazy">
+        <div class="product-card-overlay">
+          <a href="https://wa.me/2348064528539?text=Hello!%20I'm%20interested%20in%20the%20Crystal%20Empire%20Chandelier." class="btn-whatsapp">
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Order Now
+          </a>
+        </div>
+      </div>
+      <div class="product-card-body">
+        <div>
+          <div class="product-card-name">Crystal Empire Chandelier</div>
+          <span class="product-card-tag">Living Room · Dining</span>
+        </div>
+        <div class="product-card-arrow">→</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-card-img">
+        <img src="https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?w=600&q=80" alt="Modern Ring Light" loading="lazy">
+        <div class="product-card-overlay">
+          <a href="https://wa.me/2348012345678?text=Hello!%20I'm%20interested%20in%20the%20Modern%20Ring%20Light." class="btn-whatsapp">
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Order Now
+          </a>
+        </div>
+      </div>
+      <div class="product-card-body">
+        <div>
+          <div class="product-card-name">Modern Ring Light</div>
+          <span class="product-card-tag">Minimalist · Contemporary</span>
+        </div>
+        <div class="product-card-arrow">→</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-card-img">
+        <img src="https://images.unsplash.com/photo-1551133166-a0b9f3bfc9bf?w=600&q=80" alt="Gold Pendant Cluster" loading="lazy">
+        <div class="product-card-overlay">
+          <a href="https://wa.me/2348064528539?text=Hello!%20I'm%20interested%20in%20the%20Gold%20Pendant%20Cluster." class="btn-whatsapp">
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Order Now
+          </a>
+        </div>
+      </div>
+      <div class="product-card-body">
+        <div>
+          <div class="product-card-name">Gold Pendant Cluster</div>
+          <span class="product-card-tag">Kitchen · Dining</span>
+        </div>
+        <div class="product-card-arrow">→</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-card-img">
+        <img src="https://images.unsplash.com/photo-1606744888344-493238951221?w=600&q=80" alt="Staircase Statement Piece" loading="lazy">
+        <div class="product-card-overlay">
+          <a href="https://wa.me/2348064528539?text=Hello!%20I'm%20interested%20in%20the%20Staircase%20Statement%20Piece." class="btn-whatsapp">
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Order Now
+          </a>
+        </div>
+      </div>
+      <div class="product-card-body">
+        <div>
+          <div class="product-card-name">Staircase Statement Piece</div>
+          <span class="product-card-tag">Foyer · Staircase</span>
+        </div>
+        <div class="product-card-arrow">→</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-card-img">
+        <img src="https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600&q=80" alt="Slim Flush Ceiling Panel" loading="lazy">
+        <div class="product-card-overlay">
+          <a href="https://wa.me/2348064528539?text=Hello!%20I'm%20interested%20in%20the%20Flush%20Ceiling%20Panel." class="btn-whatsapp">
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Order Now
+          </a>
+        </div>
+      </div>
+      <div class="product-card-body">
+        <div>
+          <div class="product-card-name">Slim Flush Ceiling Panel</div>
+          <span class="product-card-tag">Bedroom · Office</span>
+        </div>
+        <div class="product-card-arrow">→</div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-card-img">
+        <img src="https://images.unsplash.com/photo-1540518614846-7eded433c457?w=600&q=80" alt="Vintage Edison Pendant" loading="lazy">
+        <div class="product-card-overlay">
+          <a href="https://wa.me/2348064528539?text=Hello!%20I'm%20interested%20in%20the%20Vintage%20Edison%20Pendant." class="btn-whatsapp">
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Order Now
+          </a>
+        </div>
+      </div>
+      <div class="product-card-body">
+        <div>
+          <div class="product-card-name">Vintage Edison Pendant</div>
+          <span class="product-card-tag">Cafe · Restaurant</span>
+        </div>
+        <div class="product-card-arrow">→</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     GALLERY
+══════════════════════════════════════════ -->
+<section class="gallery" id="gallery">
+  <div class="gallery-header reveal" style="max-width:1200px; margin:0 auto 3rem;">
+    <span class="section-label">Installed Projects</span>
+    <h2 class="section-title">Real Homes.<br>Real Elegance.</h2>
+    <div class="section-divider"></div>
+    <p style="font-size:0.9rem; color:var(--gray); font-weight:300; max-width:420px;">Every installation is a collaboration — we bring the light, you bring the space.</p>
+  </div>
+  <div class="gallery-grid reveal" style="max-width:1200px; margin:0 auto;">
+    <div class="gallery-item gi-1">
+      <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80" alt="Living room chandelier installation" loading="lazy">
+      <div class="gallery-item-label"><span>Living Room · VI Lagos</span></div>
+    </div>
+    <div class="gallery-item gi-2">
+      <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80" alt="Dining room pendant installation" loading="lazy">
+      <div class="gallery-item-label"><span>Dining Room · Lekki</span></div>
+    </div>
+    <div class="gallery-item gi-3">
+      <img src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?w=600&q=80" alt="Master bedroom ceiling light" loading="lazy">
+      <div class="gallery-item-label"><span>Master Bedroom · Ikoyi</span></div>
+    </div>
+    <div class="gallery-item gi-4">
+      <img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=600&q=80" alt="Staircase chandelier" loading="lazy">
+      <div class="gallery-item-label"><span>Staircase · GRA</span></div>
+    </div>
+    <div class="gallery-item gi-5">
+      <img src="https://images.unsplash.com/photo-1616047006789-b7af5afb8c20?w=600&q=80" alt="Hotel lobby installation" loading="lazy">
+      <div class="gallery-item-label"><span>Hotel Lobby · Abuja</span></div>
+    </div>
+    <div class="gallery-item gi-6">
+      <img src="https://images.unsplash.com/photo-1593696140826-c58b021acf8b?w=600&q=80" alt="Office reception lighting" loading="lazy">
+      <div class="gallery-item-label"><span>Office Reception · VI</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     STATS
+══════════════════════════════════════════ -->
+<div class="stats">
+  <div class="stats-inner">
+    <div><span class="stat-number">500+</span><span class="stat-label">Homes Installed</span></div>
+    <div><span class="stat-number">8+</span><span class="stat-label">Years Experience</span></div>
+    <div><span class="stat-number">36</span><span class="stat-label">States Covered</span></div>
+    <div><span class="stat-number">98%</span><span class="stat-label">Satisfaction Rate</span></div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     WHY US
+══════════════════════════════════════════ -->
+<section class="why" id="why">
+  <div class="why-inner">
+    <div class="why-left reveal">
+      <span class="section-label">Why Choose Us</span>
+      <h2 class="section-title">The Luxe Lighting<br>Difference</h2>
+      <div class="section-divider"></div>
+      <p>We don't just sell lights — we deliver an experience. From selection to installation, every step is handled with precision and care.</p>
+      <br>
+      <a href="https://wa.me/2348064528539?text=Hello!%20I'd%20like%20to%20learn%20more%20about%20your%20services." class="btn-gold" style="margin-top:1rem;">Talk to an Expert →</a>
+    </div>
+    <div class="why-features reveal">
+      <div class="why-feature">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 004.486-6.336l-3.276 3.277a3.004 3.004 0 01-2.25-2.25l3.276-3.276a4.5 4.5 0 00-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437l1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008z"/></svg>
+        </div>
+        <h3>Professional Installation</h3>
+        <p>Certified electricians handle every fitting — safely and perfectly.</p>
+      </div>
+      <div class="why-feature">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"/></svg>
+        </div>
+        <h3>Nationwide Delivery</h3>
+        <p>We deliver to all 36 states — packaged to arrive in perfect condition.</p>
+      </div>
+      <div class="why-feature">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 21.75l-.394-1.183a2.25 2.25 0 00-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 001.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 001.423 1.423l1.183.394-1.183.394a2.25 2.25 0 00-1.423 1.423z"/></svg>
+        </div>
+        <h3>Premium Imported Designs</h3>
+        <p>Sourced from top global manufacturers — quality you can see and feel.</p>
+      </div>
+      <div class="why-feature">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <h3>Affordable Luxury</h3>
+        <p>High-end aesthetics at prices that make sense for Nigerian homes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     TESTIMONIALS
+══════════════════════════════════════════ -->
+<section class="testimonials" id="testimonials">
+  <div class="testimonials-header reveal">
+    <span class="section-label">Client Stories</span>
+    <h2 class="section-title">What Our Clients Say</h2>
+  </div>
+  <div class="testimonials-grid reveal">
+
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <p class="testimonial-text">"The chandelier completely transformed our living room. Every guest who visits can't stop talking about it. Worth every naira spent."</p>
+      <div class="testimonial-author">
+        <div class="testimonial-avatar">AO</div>
+        <div>
+          <div class="testimonial-name">Adaeze Okonkwo</div>
+          <div class="testimonial-location">Lekki Phase 1, Lagos</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <p class="testimonial-text">"Fast delivery, professional installation, and the quality is exceptional. I ordered from Abuja and the team handled everything perfectly."</p>
+      <div class="testimonial-author">
+        <div class="testimonial-avatar">BM</div>
+        <div>
+          <div class="testimonial-name">Bashir Musa</div>
+          <div class="testimonial-location">Maitama, Abuja</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-card">
+      <div class="testimonial-stars">★★★★★</div>
+      <p class="testimonial-text">"I furnished my entire duplex through Luxe Lighting. The staircase piece alone is a work of art. Highly professional team."</p>
+      <div class="testimonial-author">
+        <div class="testimonial-avatar">TI</div>
+        <div>
+          <div class="testimonial-name">Tolu Ilesanmi</div>
+          <div class="testimonial-location">GRA, Ikeja</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     CTA
+══════════════════════════════════════════ -->
+<section class="cta-section" id="contact">
+  <span class="section-label cta-label">Take the Next Step</span>
+  <h2>Ready to <em>Upgrade</em><br>Your Space?</h2>
+  <p>Send us a message on WhatsApp and we'll help you find the perfect lighting for your home — free consultation included.</p>
+  <div class="cta-buttons">
+    <a href="https://wa.me/2348064528539?text=Hello!%20I'm%20ready%20to%20upgrade%20my%20space%20with%20Luxe%20Lighting.%20Please%20assist%20me." class="btn-whatsapp">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Chat on WhatsApp Now
+    </a>
+    <a href="#products" class="btn-outline">Browse Collection</a>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════ -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <span class="nav-logo">Luxe<span style="color:var(--white); font-weight:300;">Lighting</span></span>
+      <p>Premium chandeliers, pendant lights, and ceiling fixtures for elegant homes and commercial spaces across Nigeria.</p>
+      <div class="footer-contact-item">
+        <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span>+234 801 234 5678</span>
+      </div>
+      <div class="footer-contact-item">
+        <svg viewBox="0 0 24 24"><path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"/><path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z"/></svg>
+        <span>hello@luxelightingng.com</span>
+      </div>
+      <div class="footer-contact-item">
+        <svg viewBox="0 0 24 24"><path fill-rule="evenodd" d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-2.003 3.5-4.697 3.5-8.059a7 7 0 10-14 0c0 3.362 1.556 6.056 3.5 8.059a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.144.742zM12 13.5a3.5 3.5 0 100-7 3.5 3.5 0 000 7z" clip-rule="evenodd"/></svg>
+        <span>Victoria Island, Lagos, Nigeria</span>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Collection</h4>
+      <ul>
+        <li><a href="#products">Chandeliers</a></li>
+        <li><a href="#products">Pendant Lights</a></li>
+        <li><a href="#products">Ceiling Fixtures</a></li>
+        <li><a href="#products">Wall Sconces</a></li>
+        <li><a href="#products">Outdoor Lighting</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="#why">About Us</a></li>
+        <li><a href="#gallery">Projects</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="https://wa.me/2348064528539">Get a Quote</a></li>
+        <li><a href="https://wa.me/2348064528539">Installation Service</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Luxe Lighting Nigeria. All rights reserved. · Victoria Island, Lagos.</p>
+    <div class="footer-social">
+      <a href="#" aria-label="Instagram">IG</a>
+      <a href="#" aria-label="Facebook">FB</a>
+      <a href="https://wa.me/2348064528539" aria-label="WhatsApp">WA</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════════════════════════════════════
+     FLOATING WHATSAPP BUTTON
+══════════════════════════════════════════ -->
+<a class="float-wa" href="https://wa.me/2348064528539?text=Hello!%20I'm%20interested%20in%20your%20lighting%20collection." aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<!-- ══════════════════════════════════════════
+     JAVASCRIPT
+══════════════════════════════════════════ -->
+<script>
+const navbar = document.getElementById('navbar');
+window.addEventListener('scroll', () => {
+  navbar.classList.toggle('scrolled', window.scrollY > 60);
+});
+
+const heroBg = document.getElementById('heroBg');
+window.addEventListener('scroll', () => {
+  const scroll = window.scrollY;
+  heroBg.style.transform = 'scale(1.05) translateY(' + (scroll * 0.3) + 'px)';
+});
+
+const menuToggle = document.getElementById('menuToggle');
+const mobileMenu = document.getElementById('mobileMenu');
+menuToggle.addEventListener('click', () => {
+  mobileMenu.classList.toggle('open');
+});
+function closeMobile() {
+  mobileMenu.classList.remove('open');
+}
+
+const reveals = document.querySelectorAll('.reveal');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry, i) => {
+    if (entry.isIntersecting) {
+      setTimeout(() => {
+        entry.target.classList.add('visible');
+      }, i * 80);
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12 });
+reveals.forEach(el => observer.observe(el));
+
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const id = a.getAttribute('href').slice(1);
+    const target = document.getElementById(id);
+    if (target) {
+      e.preventDefault();
+      target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+</script>
+
+</body>
+</html>
